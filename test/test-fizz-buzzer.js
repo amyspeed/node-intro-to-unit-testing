@@ -1,7 +1,7 @@
 const expect = require('chai').expect;
 const fizzBuzzer = require('../fizzBuzzer');
 
-describe(fizzBuzzer, function() {
+describe('fizzBuzzer', function() {
     it('should return "fizzbuzz" for multiples of 15', function() {
         [15, 60, 90].forEach(function(input){
             expect(fizzBuzzer(input)).to.equal('fizz-buzz');
